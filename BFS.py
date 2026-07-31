@@ -4,7 +4,6 @@ def bfs(graph, start_node):
 
     while queue:
         current_node = queue.pop(0)
-
         if current_node not in visited:
             print(f"Exploring node: {current_node}")
             visited.append(current_node)
